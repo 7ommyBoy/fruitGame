@@ -7,7 +7,39 @@ html, body {
 
 button {
   height: 30%;
-  width: 30%;
+  width: 33%;
+  background-color: #bb8a30;
+  padding: 15px 100px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: hover;
+  border-radius: 30px;
+  box-shadow: 0 9px #99941a;
+  margin-bottom: 4%;
+  font-family: "Brush Script MT", "Fantasy", monospace;
+  
+
+}
+
+
+
+h1 {
+  text-align: center;
+  text-decoration: #537897 ;
+  font-family: "Brush Script MT", "Fantasy", monospace;
+
+
+}
+
+h3 {
+    text-align: center;
+    font-family: "Brush Script MT", "Fantasy", monospace;
+}
+
+
+.boxed {
   background-color: #bb8a30;
   padding: 15px 25px;
   font-size: 24px;
@@ -18,12 +50,7 @@ button {
   border-radius: 40px;
   box-shadow: 0 9px #99941a;
   margin-bottom: 4%;
+  font-family: "Brush Script MT", "Fantasy", monospace;
 
-}
-
-
-
-h1 {
-  text-align: center;
-  text-decoration: #537897 ;
+  
 }
