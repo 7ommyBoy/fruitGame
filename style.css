@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: orange;
+}
+
+
+button {
+  height: 30%;
+  width: 30%;
+  background-color: #bb8a30;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: hover;
+  border-radius: 40px;
+  box-shadow: 0 9px #99941a;
+  margin-bottom: 4%;
+
+}
+
+
+
+h1 {
+  text-align: center;
+  text-decoration: #537897 ;
+}
