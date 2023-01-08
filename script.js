@@ -65,3 +65,4 @@ endGameButton.onclick = () => {
   console.log('Game Ended!')
 
 }
+}
