@@ -29,7 +29,7 @@ button:hover {
 
 h1 {
   text-align: center;
-  text-decoration: #537897 ;
+  text-decoration:overline;
   font-family: "Brush Script MT", "Fantasy", monospace;
 
 
@@ -38,6 +38,8 @@ h1 {
 h3 {
     text-align: center;
     font-family: "Brush Script MT", "Fantasy", monospace;
+    text-decoration: underline;
+  
 }
 
 
@@ -55,16 +57,15 @@ h3 {
   font-family: "Brush Script MT", "Fantasy", monospace;
   transition-duration: 0.4s;
 
+  
 }
-
 .boxed:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-
 .image {
-  width: 70px,;
-  height: 70px;
+  width: 100px,;
+  height: 100px;
   border-radius: 8px;
 
 }
@@ -73,24 +74,8 @@ h3 {
   object-fit: contain;
   object-position: left;
 }
-h3 {
-    text-align: center;
-    font-family: "Brush Script MT", "Fantasy", monospace;
-}
 
-
-.boxed {
-  background-color: #bb8a30;
-  padding: 15px 25px;
-  font-size: 24px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  border: hover;
-  border-radius: 40px;
-  box-shadow: 0 9px #99941a;
-  margin-bottom: 4%;
-  font-family: "Brush Script MT", "Fantasy", monospace;
-
-  
+endGameButton {
+  width: 90%;
+  height: 20%;
 }
