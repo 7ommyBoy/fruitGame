@@ -19,8 +19,10 @@ button {
   box-shadow: 0 9px #99941a;
   margin-bottom: 4%;
   font-family: "Brush Script MT", "Fantasy", monospace;
-  
-
+  transition-duration: 0.4s;
+}
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 
@@ -33,6 +35,40 @@ h1 {
 
 }
 
+h3 {
+    text-align: center;
+    font-family: "Brush Script MT", "Fantasy", monospace;
+}
+
+
+.boxed {
+  background-color: #bb8a30;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: hover;
+  border-radius: 40px;
+  box-shadow: 0 9px #99941a;
+  margin-bottom: 4%;
+  font-family: "Brush Script MT", "Fantasy", monospace;
+  transition-duration: 0.4s;
+
+  
+}
+
+.image {
+  width: 70px,;
+  height: 70px;
+  border-radius: 8px;
+
+}
+
+.image-contain {
+  object-fit: contain;
+  object-position: left;
+}
 h3 {
     text-align: center;
     font-family: "Brush Script MT", "Fantasy", monospace;
