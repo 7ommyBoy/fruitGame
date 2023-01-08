@@ -1,18 +1,15 @@
-class Person {
-  constructor(name, job) {
-    this.name = name
-    this.job = job
-  }
-  getName() {
-    return `Hello my name is ${this.name} `
-  }
-  getJob() {
-    return `and my job is ${this.job}`
-  }
-}
+// class Fruits {
+//   constructor(bananna, orange, mango) {
+//     this.bananna = bananna
+//     this.orange = orange
+//     this.mango = mango
+//   }
+//   getFruit() {
+//     return `Hello this fruit is ${this.bananna} `
+//   }
+// }
 
 
-const person1 = new Person("Emily", "Firefighter")
 
 const button1 = document.getElementById('button1')
 button1.addEventListener('click', () => {
@@ -63,25 +60,8 @@ button6.addEventListener('click', () => {
 
 })
 
-})
+const endGameButton = document.getElementById('endGameButton')
+endGameButton.onclick = () => {
+  console.log('Game Ended!')
 
-const button4 = document.getElementById('button4')
-button4.addEventListener('click', () => {
-
-  console.log(`You clicked me so i shall reveal myself, ${person1.getName(), person1.getJob()}`)
-
-})
-
-const button5 = document.getElementById('button5')
-button5.addEventListener('click', () => {
-
-  console.log(`You clicked me so i shall reveal myself, ${person1.getName(), person1.getJob()}`)
-
-})
-
-const button6 = document.getElementById('button6')
-button6.addEventListener('click', () => {
-
-  console.log(`You clicked me so i shall reveal myself, ${person1.getName(), person1.getJob()}`)
-
-})
+}
