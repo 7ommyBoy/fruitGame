@@ -79,3 +79,11 @@ endGameButton {
   width: 90%;
   height: 20%;
 }
+
+
+.center {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Brush Script MT", "Fantasy", monospace;
+  
+}
