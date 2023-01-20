@@ -158,36 +158,3 @@ function endGame(totalScore) {
 }
 
 playGame()
-
-})
-
-const button4 = document.getElementById('button4')
-button4.addEventListener('click', () => {
-  console.log(`Banannas!`)
-
-  // console.log(`You clicked me so i shall reveal myself, ${person1.getName(), person1.getJob()}`)
-
-})
-
-const button5 = document.getElementById('button5')
-button5.addEventListener('click', () => {
-  console.log(`Orange!`)
-
-  // console.log(`You clicked me so i shall reveal myself, ${person1.getName(), person1.getJob()}`)
-
-})
-
-const button6 = document.getElementById('button6')
-button6.addEventListener('click', () => {
-  console.log(`Mango!`)
-
-  // console.log(`You clicked me so i shall reveal myself, ${person1.getName(), person1.getJob()}`)
-
-})
-
-const endGameButton = document.getElementById('endGameButton')
-endGameButton.onclick = () => {
-  console.log('Game Ended!')
-
-}
-}
